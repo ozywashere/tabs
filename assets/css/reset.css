@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a,
+img,
+span,
+button,
+ion-icon {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input,
+button {
+  outline: none;
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  outline: none;
+}
+ion-icon {
+  pointer-events: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+
+html {
+  font-family: var(--ff-poppins);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
