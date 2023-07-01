@@ -13,7 +13,6 @@ tabContent.addEventListener('click', (e) => {
       content.classList.remove('active')
     })
     const element = document.getElementById(id)
-    console.log(element)
     element.classList.add('active')
   }
 })
